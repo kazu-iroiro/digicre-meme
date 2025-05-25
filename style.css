@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+#output {
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    min-height: 30px;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    white-space: pre-wrap;
+}
+
+#status {
+    color: green;
+    font-weight: bold;
+}
+
+#imagebox {
+    text-align: center;
+    margin-top: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    min-height: 150px;
+    min-width: 150px;
+    background-color: rgb(242, 246, 250);
+}
+
+#imagebox img {
+    max-width: 200%;
+    margin-top: 1em;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    /*animation: fadeInImage 0.8s ease forwards;*/
+}
+
+@keyframes fadeInImage {
+    from {
+        opacity: 0;
+        transform: scale(50);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeOutImage {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+/* フェードイン: 0.3秒遅延 → 0.6秒再生 */
+.fade-in {
+    animation: fadeInImage 0.6s ease-out 0.3s forwards;
+    transform-origin: center center;
+}
+
+/* フェードアウト: 3秒遅延後に0.5秒再生（JSで制御） */
+.fade-out {
+    animation: fadeOutImage 0.5s ease-in-out forwards;
+}
