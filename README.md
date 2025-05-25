@@ -1,6 +1,16 @@
 # digicre-meme
 ミームを画像で表示するWebアプリです
 
+# 動作環境
+【正常動作可】
+Safari on iOS 18.4 on iPhone XS,
+Safari on iPadOS 18.4.1 on iPad Air 3rd,
+Chrome on macOS 15.4.1 on MacBook Pro 2018
+で動作することを確認しています。
+
+【動作不可】
+Android版ChromeやAndroid版Edgeでは正常に動作しません。
+
 # 判定語一覧
 | 判定される日本語                             | 画像ファイル名                           |
 | ------------------------------------ | --------------------------------- |
