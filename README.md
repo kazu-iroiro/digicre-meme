@@ -12,6 +12,7 @@ Chrome on macOS 15.4.1 on MacBook Pro 2018
 で動作することを確認しています。
 
 【動作不可】
+
 Android版ChromeやAndroid版Edgeでは正常に動作しません。
 
 # 判定語一覧
