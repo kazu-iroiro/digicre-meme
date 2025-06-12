@@ -36,7 +36,8 @@ const wordList = [
     {
         "word": "ほとんど違法",
         "targets": [
-            "ほとんど違法"
+            "ほとんど違法",
+            "ほとんど"
         ],
         "file": "./stamps/hotondoihou.webp"
     },
