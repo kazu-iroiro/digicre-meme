@@ -22,7 +22,8 @@ const wordList = [
     {
         "word": "怪レい日本語",
         "targets": [
-            "怪しい日本語"
+            "怪しい日本語",
+            "怪しい"
         ],
         "file": "./stamps/ayashiinihongo.png"
     },
@@ -85,7 +86,9 @@ const wordList = [
         "word": "おふとんに押し込んであげましょうね",
         "targets": [
             "おふとんに押し込んであげましょうね",
-            "お布団に押し込んであげましょうね"
+            "お布団に押し込んであげましょうね",
+            "お布団",
+            "おふとん"
         ],
         "file": "./stamps/ofutonnioshikondeagemasyoune.webp"
     },
@@ -128,7 +131,8 @@ const wordList = [
     {
         "word": "英雄の証",
         "targets": [
-            "英雄の証"
+            "英雄の証",
+            "英雄"
         ],
         "file": "./stamps/eiyunoakashi.png"
     },
@@ -201,7 +205,8 @@ const wordList = [
     {
         "word": "危険が危ない",
         "targets": [
-            "危険が危ない"
+            "危険が危ない",
+            "危険"
         ],
         "file": "./stamps/kikengaabunai.png"
     },
